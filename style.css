@@ -1,0 +1,66 @@
+body {
+  /* margin: 0;
+  padding: 0; */
+  /* background-color: #486d46;         背景色 */
+  background-image: url("haikei.png"); /* 画像 */
+  background-size: cover;              /* 全画面 */
+  background-attachment: fixed;        /* 固定 */
+  background-position: center center;  /* 縦横中央 */
+}
+
+h1 {
+  color: #FFFF00/* 文字の色 */;
+  -webkit-text-stroke: 1px #000;
+}
+
+.row-buttons {
+	display: flex;
+	justify-content: center;
+  margin-left: -15px; /* ボタンの位置 */
+
+  /* > *:nth-child(n+2) {
+	
+	} */
+	
+	
+}
+
+.button {
+	/* padding: 8px 20px;
+	border: solid 2px #ddd;
+	border-radius: 10px;
+	font-size: 16px; */
+  padding: 8px 20px;/* ボタンの高さと幅 */
+	/* border: solid 2px #ddd;ボタンの周りの大きさと色 */
+	border-radius: 10px;/* ボタンの角 */
+	font-size: 16px;/* 文字の大きさ */
+  background-color: SpringGreen;
+}
+
+.button2 {
+  background-color: deepskyblue;
+  border-radius: 10px;/* ボタンの角 */
+	font-size: 16px;/* 文字の大きさ */
+}
+
+/* .img{ */
+  /* background-image: url(2.png); 任意の画像を設定  */
+  /* background-position: center center; どの画面サイズに対しても画像の中心が移る */
+  /* background-size: cover; 画像が画面幅いっぱいに広がる */
+  /* width: 100%; 横幅いっぱい */
+  /* height: 100vh; 縦幅いっぱい */
+  
+ /* } */
+/* .img::before{
+  content: '';
+  display: block;
+  padding-top: 50%;
+} */
+
+/* .message{  */
+  /* position: absolute;ポジション: 絶対 */
+  /* width: 100%;幅 100% */
+  /* bottom: 0; 下 0 */
+  /* height: 100%;高さ 100% */
+  /* background-color: rgba(0,0,0,0.0); 背景色、透明度 */
+/* } */
